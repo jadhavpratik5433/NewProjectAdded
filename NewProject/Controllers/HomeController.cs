@@ -37,7 +37,7 @@ namespace NewProject.Controllers
             }
             else
             {
-                ViewBag.Message = "Login Failed";
+                ViewBag.Message = "Login FailEd";
             }
                 return View();
         }

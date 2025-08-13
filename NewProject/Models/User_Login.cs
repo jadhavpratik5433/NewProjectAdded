@@ -15,6 +15,7 @@ namespace NewProject.Models
         [Required]
         public string Email { get; set; } = null;
         [DataType(DataType.Password)]
+        [Required]
         public string Password { get; set; } = null;
 
 
